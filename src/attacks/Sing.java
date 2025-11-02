@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public class Sing extends PhysicalMove {
     public Sing() {
-        super(Type.STEEL, 80, 100);
+        super(Type.PSYCHIC, 80, 100);
     }
 
     @Override

@@ -1,4 +1,4 @@
 package pokemons;
 
-public class Seviper {
+public final class Seviper {
 }
