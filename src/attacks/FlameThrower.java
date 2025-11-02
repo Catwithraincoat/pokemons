@@ -18,7 +18,7 @@ public class FlameThrower extends SpecialMove {
     @Override
     protected double calcTypeEffect(Pokemon pokemon, Pokemon pokemon1) {
         double base = super.calcTypeEffect(pokemon, pokemon1);
-        return 4 * base;
+        return 2 * base;
     }
 
     @Override

@@ -1,0 +1,22 @@
+package attacks;
+
+import ru.ifmo.se.pokemon.Pokemon;
+import ru.ifmo.se.pokemon.Stat;
+import ru.ifmo.se.pokemon.StatusMove;
+import ru.ifmo.se.pokemon.Type;
+
+
+public class Swagger extends StatusMove {
+    public Swagger() {
+        super(Type.NORMAL, 0, 0);
+    }
+    @Override
+    protected void applySelfEffects(Pokemon p) {
+        p.setMod(Stat.HP, -10);
+    }
+
+    public String describe()
+    {
+        return "использовал Swagger";
+    }
+}
